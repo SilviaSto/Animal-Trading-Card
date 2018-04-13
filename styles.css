@@ -1,0 +1,59 @@
+body, header, h3, ul, li, div, p, img, figure, figcaption {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+body {
+  font-family: "Times New Roman", Helvetika, Ariel;
+}
+header h3 {
+margin:10px 15px 10px 15px;
+font-size: 27px;
+text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 5px 5px 15px 5px;
+}
+figcaption{
+  text-align: center;
+  font-size: 12px;
+  padding: 0px 15px 15px 0px;
+}
+.orangutan-image {
+  margin: 0px 15px 0px 15px;
+  width: 300px;
+  height: 200px;
+  border: 1px ridge lightgrey;
+  border-radius: 5px;
+  box-shadow: 4px 4px 13px #0000004a
+ }
+.interesting-facts {
+ font-style: italic;
+ padding: 15px 5px 15px 5px;
+}
+.status {
+  color: red;
+}
+.list {
+  font-weight: bold;
+}
+.facts {
+  border: 1px ridge lightgrey;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 0 20px 15px;
+  background-color: #ede6e2db;
+  box-shadow: 4px 4px 13px #0000004a;
+}
+.description {
+  padding: 5px 5px 15px 5px;
+}
+.outside-box {
+  margin: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 7px 8px 10px #777;;
+  width: 330px;
+  padding: 5px;
+  background: linear-gradient(to bottom, #ccff99 25%, #669900  60%);
+}
